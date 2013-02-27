@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">ReadMe</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login_or_signup">Log In or Sign Up</string>
+    <string name="title_activity_authenticate">Log In</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select_users">Select Users</string>
+    <string name="title_activity_add_link">Add a Link</string>
+    <string name="loginButtonLabel">Log In</string>
+    <string name="password_hint">password</string>
+    <string name="email_address_hint">email address</string>
+    <string name="ab_add">Add</string>
+    <string name="ab_follow">Follow</string>
+    <string name="ab_logout">Log Out</string>
+
+</resources>
