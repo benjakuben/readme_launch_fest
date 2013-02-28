@@ -40,11 +40,7 @@ public class AuthenticateActivity extends RoboSherlockActivity {
 			mButton.setText(mAction);
 			actionBar.setTitle(mAction);
 		}
-		
-		// TODO: TESTING
-		mEmailField.setText("ben@teamtreehouse.com");
-		mPasswordField.setText("test");
-		
+				
 		mButton.setOnClickListener(new View.OnClickListener() {			
 			@Override
 			public void onClick(View v) {
