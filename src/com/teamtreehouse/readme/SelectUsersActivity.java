@@ -16,6 +16,7 @@ import com.github.rtyley.android.sherlock.roboguice.RoboSherlockListActivity;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseRelation;
 import com.parse.ParseUser;
 
@@ -53,7 +54,10 @@ public class SelectUsersActivity extends RoboSherlockListActivity {
 	private void getAllUsers() {
 		mProgressBar.setVisibility(View.VISIBLE);
 		
-		ParseUser.getQuery().findInBackground(new FindCallback() {
+
+    	ParseQuery query = ParseUser.getQuery();
+    	query.orderByDescending("createdAt");
+		query.findInBackground(new FindCallback() {
 			public void done(List<ParseObject> objects, ParseException e) {
 				mProgressBar.setVisibility(View.INVISIBLE);
 

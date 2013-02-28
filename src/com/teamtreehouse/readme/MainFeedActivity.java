@@ -41,7 +41,7 @@ public class MainFeedActivity extends RoboSherlockListActivity {
 	
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
-	    TextView urlLabel = (TextView) v.findViewById(android.R.id.text1);
+	    TextView urlLabel = (TextView) v.findViewById(android.R.id.text2);
 	    Intent intent = new Intent(Intent.ACTION_VIEW);
 	    intent.setData(Uri.parse(urlLabel.getText().toString()));
 	    startActivity(intent);
@@ -78,6 +78,8 @@ public class MainFeedActivity extends RoboSherlockListActivity {
     	mProgressBar.setVisibility(View.VISIBLE);
     	
     	ParseQuery query = new ParseQuery(AddLinkActivity.POSTS);
+    	query.setLimit(100);
+    	query.orderByDescending("createdAt");
     	query.findInBackground(new FindCallback() {
     		public void done(List<ParseObject> results, ParseException e) {
     	    	mProgressBar.setVisibility(View.INVISIBLE);

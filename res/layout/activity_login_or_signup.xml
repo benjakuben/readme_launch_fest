@@ -4,20 +4,34 @@
     android:layout_height="match_parent"
     tools:context=".LoginOrSignupActivity" >
 
-    <Button
-        android:id="@+id/button2"
+    <ImageView
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/button1"
-        android:text="Sign Up" />
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/desc_treehouse_logo"
+        android:scaleType="center"
+        android:src="@drawable/treehouse_logo" />
 
-    <Button
-        android:id="@+id/button1"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:text="Log In" />
+        android:layout_below="@id/logo"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/signup_button_label" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/login_button_label" />
+    </LinearLayout>
 
 </RelativeLayout>

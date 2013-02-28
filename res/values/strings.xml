@@ -13,5 +13,8 @@
     <string name="ab_add">Add</string>
     <string name="ab_follow">Follow</string>
     <string name="ab_logout">Log Out</string>
+    <string name="signup_button_label">Sign Up</string>
+    <string name="login_button_label">Log In</string>
+    <string name="desc_treehouse_logo">Treehouse Logo</string>
 
 </resources>

@@ -918,6 +918,7 @@ containing a value of this type.
         public static final int abs__textfield_searchview_right_holo_dark=0x7f02006d;
         public static final int abs__textfield_searchview_right_holo_light=0x7f02006e;
         public static final int ic_launcher=0x7f02006f;
+        public static final int treehouse_logo=0x7f020070;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040022;
@@ -960,21 +961,22 @@ containing a value of this type.
         public static final int abs__title=0x7f04001b;
         public static final int abs__titleDivider=0x7f04001c;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f04003f;
-        public static final int addButton=0x7f04003c;
+        public static final int action_settings=0x7f040040;
+        public static final int addButton=0x7f04003d;
         public static final int button1=0x7f040035;
-        public static final int button2=0x7f040037;
-        public static final int checkbox=0x7f040039;
+        public static final int button2=0x7f040038;
+        public static final int checkbox=0x7f04003a;
         public static final int disableHome=0x7f040009;
         public static final int editText1=0x7f040033;
         public static final int editText2=0x7f040034;
         public static final int edit_query=0x7f040027;
-        public static final int emailLabel=0x7f04003a;
-        public static final int followButton=0x7f04003d;
+        public static final int emailLabel=0x7f04003b;
+        public static final int followButton=0x7f04003e;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
-        public static final int logoutButton=0x7f04003e;
-        public static final int menu_settings=0x7f04003b;
+        public static final int logo=0x7f040037;
+        public static final int logoutButton=0x7f04003f;
+        public static final int menu_settings=0x7f04003c;
         public static final int normal=0x7f040001;
         public static final int progressBar1=0x7f040036;
         public static final int showCustom=0x7f040008;
@@ -982,7 +984,7 @@ containing a value of this type.
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
         public static final int useLogo=0x7f040004;
-        public static final int userImage=0x7f040038;
+        public static final int userImage=0x7f040039;
         public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
@@ -1078,10 +1080,13 @@ containing a value of this type.
         public static final int abs__shareactionprovider_share_with_application=0x7f090009;
         public static final int action_settings=0x7f090013;
         public static final int app_name=0x7f09000f;
+        public static final int desc_treehouse_logo=0x7f09001e;
         public static final int email_address_hint=0x7f090018;
         public static final int loginButtonLabel=0x7f090016;
+        public static final int login_button_label=0x7f09001d;
         public static final int menu_settings=0x7f090010;
         public static final int password_hint=0x7f090017;
+        public static final int signup_button_label=0x7f09001c;
         public static final int title_activity_add_link=0x7f090015;
         public static final int title_activity_authenticate=0x7f090012;
         public static final int title_activity_login_or_signup=0x7f090011;
