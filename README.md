@@ -8,4 +8,4 @@ This is a very simple social bookmarking app written to demonstrate the usefulne
 - SmartImageView
 - PullToRefresh
 
-The back-end is written with parse.com.
+The back-end is written with parse.com. You must include ActionBarSherlock and PullToRefresh as library projects for this code to compile.
