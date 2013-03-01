@@ -25,7 +25,9 @@ public class LoginOrSignupActivity extends RoboSherlockActivity {
 		
 		// Check for cached user
 		if (ParseUser.getCurrentUser() != null) {
-			startActivity(new Intent(this, MainFeedActivity.class));
+			Intent intent = new Intent(this, MainFeedActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
 		} 
 		else {		
 			mLoginButton.setOnClickListener(new View.OnClickListener() {
